@@ -1,5 +1,7 @@
 #+title: Evil Insert Idle Timer Mode
 
+When in /insert/ mode of [[https://www.emacswiki.org/emacs/Evil][EmacsWiki: Evil]] , switch to /normal/ mode after N seconds of idleness.
+
 * Usage
 
 #+begin_src emacs-lisp :tangle yes
