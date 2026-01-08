@@ -1,0 +1,11 @@
+#+title: Evil Insert Idle Timer Mode
+
+* Usage
+
+#+begin_src emacs-lisp :tangle yes
+(use-package! +evil-insert-idle-timer
+  :after evil
+  :config
+  (setq +evil-insert-idle-timer-delay 4)
+  (+evil-insert-idle-timer-mode 1))
+#+end_src
